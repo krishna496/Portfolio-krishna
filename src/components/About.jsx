@@ -34,7 +34,8 @@ export default function About() {
           <div className="relative bg-bgDark border border-white/5 rounded-3xl p-8 flex flex-col items-center text-center shadow-2xl">
             <div className="w-40 h-40 rounded-full overflow-hidden border-2 border-accentPurple shadow-lg shadow-accentPurple/20 mb-6">
               <img
-                src="/assets/profile_avatar.png"
+                src={`${import.meta.env.BASE_URL}assets/profile_avatar.png`}
+
                 alt="Krishna Sinha Profile Avatar"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
